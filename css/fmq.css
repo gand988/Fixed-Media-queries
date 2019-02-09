@@ -1,0 +1,105 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+                box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.fmq,
+.fmq:before{
+  position: fixed; 
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 3px solid #c00;
+  border-right: 3px solid #c00;
+  border-bottom: 2px solid black;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+.fmq:before{
+  position: absolute;
+  border: none;
+  content: "";
+  bottom: 0;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.long:before{
+  height: 100vh;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .fmq:before{
+    border:none;
+    width: 0;
+  }
+  .fmq{
+    width: 100%;
+    background-color: rgba(39, 75, 129,.7);
+  }
+  .fmq:after{
+    content: "0 to 576 || (max-width: 575.98px)"
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .fmq:before{
+    width: 576px;
+  }
+  .fmq{
+    width: 100%;
+    background-color: rgba(39, 75, 129,.7);
+  }
+  .fmq:after{
+    content: "576 to 768 || (min-width: 576px) and (max-width: 767.98px) "
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .fmq:before{
+    width: 768px;
+  }    
+  .fmq{
+    width: 100%;
+    background-color: rgba(39, 75, 129,.7);
+  }
+  .fmq:after{
+    content: "768 to 992 || (min-width: 768px) and (max-width: 991.98px) "
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .fmq:before{
+    width: 992px;
+  }    
+  .fmq{
+    width: 100%;
+    background-color: rgba(39, 75, 129,.7);
+  }
+  .fmq:after{
+    content: "992 to 1200 || (min-width: 992px) and (max-width: 1199.98px) "
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .fmq:before{
+    width: 1200px;
+  }
+  .fmq{
+    width: 100%;
+    background-color: rgba(39, 75, 129,.7);
+  }
+  .fmq:after{
+    content: "1200 up || (min-width: 1200px)"
+  }
+}
