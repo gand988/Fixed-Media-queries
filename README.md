@@ -10,11 +10,16 @@ Link it on your page and add
 <div class="fmq"></div>
 ```
 and you are done!!
-
+``` class="long" ```
+``` class="light" ```
 ### More
-Adding the class ``` long ``` the min-width will extend for all the page height.
+#### class="long"
+Adding the ``` class="long" ``` the min-width border will extend for all the page height.
 
-At moment there is only one : ``` light ``` useful if you are working with dark backgrounds.
+![alt text](https://github.com/gand988/Fixed-Media-queries/blob/master/full_for_github.png)
+#### class="light"
+At moment there is only one theme : ``` class="light" ``` useful if you are working with dark backgrounds.
+![alt text](https://github.com/gand988/Fixed-Media-queries/blob/master/full_for_github-light-theme.png)
 
 
 by [Matteo Zanda](https://gand988.github.io/portfolio)
