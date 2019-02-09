@@ -1,7 +1,8 @@
 # Fixed-Media-queries (FMQ)
 
 Just a simple width reminder on the top of your page.
-[see on codepen](https://codepen.io/gand988/pen/XOZPvW)
+
+[Show on codepen](https://codepen.io/gand988/pen/XOZPvW)
 ### Installing
 Dowload the ``` fmq.css ``` file and put on your folder project.
 
