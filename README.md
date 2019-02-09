@@ -1,14 +1,20 @@
 # Fixed-Media-queries (FMQ)
 
-Did you have problem with media queries? 
-Did you want something that remember you the min and max width? 
+Just a simple width reminder on the top of your page.
 
-FMQ is for you. 
+### Installing
+Dowload the ``` fmq.css ``` file and put on your folder project.
 
-With just a simple line of code that you need to add at the beginning of the page and the link to the CSS, you will have a fixed top bar that will show the fixed width of the page are you looking and will show you the minimal width with 2 vertical bar.
+Link it on your page and add 
+```
+<div class="fmq"></div>
+```
+and you are done!!
 
-Theme
-Only with adding the class 'light', is possible to work with white colors on dark website.
+### More
+Adding the class ``` long ``` the min-width will extend for all the page height.
+
+At moment there is only one : ``` light ``` useful if you are working with dark backgrounds.
 
 
 by [Matteo Zanda](https://gand988.github.io/portfolio)
